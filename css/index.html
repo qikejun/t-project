@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box,
+    .box * {
+      box-sizing: border-box;
+    }
+    .box{
+      background-color: #123456;
+      height: 200px;
+      width: 400px;
+      color: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      align-items: center;
+    }
+    span{
+      /* height: 40px; */
+      flex-basis: 110px;
+      border: 1px solid #eee;
+    }
+    span:first-child{
+      flex-grow: 1;
+    }
+    span:last-child{
+      /* flex: 1; */
+      /* flex-grow: 1; */
+      flex-shrink: 1;
+      align-self: flex-end;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <span style="color:skyblue;">flex-wrap 为 wrap 、wrap-reverse 时 align-content 起作用</span>
+    <span>1</span><span>2</span><span>3</span>
+  </div>
+</body>
+</html>

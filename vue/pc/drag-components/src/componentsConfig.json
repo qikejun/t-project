@@ -1,0 +1,10 @@
+[
+  { "x": 0, "y": 0, "w": 8, "h": 2, "i": "Todo","id": 1,"name": "Todo" },
+  { "x": 8, "y": 0, "w": 3, "h": 2, "i": "Notice","id": 2,"name": "Notice" },
+  { "x": 8, "y": 0, "w": 2, "h": 2, "i": "A","id": "A","name": "Notice" },
+  { "x": 8, "y": 0, "w": 1, "h": 2, "i": "B","id": "B","name": "Notice" },
+  { "x": 8, "y": 0, "w": 5, "h": 2, "i": "C","id": "C","name": "Notice" },
+  { "x": 8, "y": 0, "w": 6, "h": 2, "i": "D","id": "C","name": "Notice" },
+  { "x": 8, "y": 0, "w": 7, "h": 2, "i": "E","id": "E","name": "Notice" },
+  { "x": 0, "y": 2, "w": 12, "h": 4, "i": "Information","id": 3,"name": "Information" }
+]
